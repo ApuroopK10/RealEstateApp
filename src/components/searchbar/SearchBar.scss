@@ -1,0 +1,44 @@
+.searchBar {
+
+
+    .type {
+        button {
+            padding: 16px 36px;
+            border: 2px solid #999;
+            background-color: white;
+            cursor: pointer;
+            text-transform: capitalize;
+            border-radius: 4px;
+
+            &:first-child {
+                border-right: none;
+            }
+
+            &:last-child {
+                border-left: none;
+            }
+
+            &.active {
+                background-color: black;
+                color: white;
+            }
+        }
+    }
+
+    form {
+        display: flex;
+        input {
+            padding: 16px;
+        }
+
+        button {
+            padding: 0 8px;
+            background-color: #fece51;
+
+            img {
+                width: 30px;
+                padding: 0 6px;
+            }
+        }
+    }
+}

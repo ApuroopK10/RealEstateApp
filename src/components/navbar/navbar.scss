@@ -52,8 +52,9 @@ nav {
         justify-content: flex-end;
         align-items: center;
         gap: 15px;
-        // background-color: #fcf5f3;
+        background-color: #fcf5f3;
         height: 100%;
+        z-index: 999;
 
         a {
             padding: 12px 24px;
