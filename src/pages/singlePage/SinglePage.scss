@@ -5,6 +5,64 @@
     flex: 3;
     .wrapper {
       padding-right: 50px;
+      .info {
+        .top {
+          display: flex;
+          justify-content: space-between;
+          .post {
+            display: flex;
+            flex-direction: column;
+            gap: 1.5rem;
+            h1 {
+            }
+            .address {
+              display: flex;
+              gap: 0.25rem;
+              align-items: center;
+              color: #888;
+              font-size: 14px;
+
+              img {
+                width: 16px;
+                height: 16px;
+              }
+            }
+
+            .price {
+              padding: 5px;
+              background-color: #fece51;
+              border-radius: 5px;
+              width: max-content;
+              font-size: 20px;
+              font-weight: 600;
+            }
+          }
+          .user {
+            padding: 0 2rem;
+            background-color: #fcf5f3;
+            border-radius: 8px;
+            display: flex;
+            flex-direction: column;
+            justify-content: center;
+            align-items: center;
+            gap: 0.5rem;
+            img {
+              width: 50px;
+              height: 50px;
+              border-radius: 50%;
+              object-fit: cover;
+            }
+
+            span {
+              font-size: 16px;
+              font-weight: 600;
+            }
+          }
+        }
+
+        .bottom {
+        }
+      }
     }
   }
 

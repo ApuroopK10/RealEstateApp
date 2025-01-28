@@ -1,0 +1,67 @@
+.slider {
+  display: flex;
+  gap: 0.5rem;
+  img {
+    cursor: pointer;
+    border-radius: 10px;
+  }
+  .main {
+    flex: 3;
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  }
+
+  .side {
+    flex: 1;
+    display: flex;
+    flex-direction: column;
+    gap: 0.5rem;
+
+    .image {
+      flex: 1;
+      img {
+        width: 100%;
+        border-radius: 10px;
+        height: 100px;
+      }
+    }
+  }
+
+  .dialog {
+    position: absolute;
+    top: 0;
+    left: 0;
+    background-color: gray;
+    width: 100%;
+    height: 100%;
+    z-index: 999;
+    // opacity: 0.6;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    .mainImg {
+      width: 100%;
+      height: 100vh;
+    }
+
+    img.arrow {
+      width: 32px;
+      height: auto;
+
+      &.right {
+        transform: rotate(180deg);
+      }
+    }
+
+    img.close {
+      position: absolute;
+      top: 21px;
+      right: 73px;
+      width: 32px;
+      height: 32px;
+    }
+  }
+}
