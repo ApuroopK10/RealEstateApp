@@ -9,6 +9,8 @@
         .top {
           display: flex;
           justify-content: space-between;
+          margin-top: 2rem;
+
           .post {
             display: flex;
             flex-direction: column;
@@ -61,6 +63,7 @@
         }
 
         .bottom {
+          margin-top: 2rem;
         }
       }
     }

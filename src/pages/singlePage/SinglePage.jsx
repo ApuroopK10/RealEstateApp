@@ -24,7 +24,18 @@ const SinglePage = () => {
                 <span>{userData.name}</span>
               </div>
             </div>
-            <div className="bottom"></div>
+            <div className="bottom">
+              <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit.
+                Voluptatibus recusandae obcaecati quis amet ex voluptas nihil,
+                cumque deleniti ut ratione, unde quae reprehenderit delectus
+                accusantium esse molestiae repellat odit suscipit. Lorem ipsum
+                dolor, sit amet consectetur adipisicing elit. Voluptatem minus
+                nulla repellat facilis aut, iusto incidunt placeat odio est
+                distinctio. Fugiat, itaque fuga delectus amet neque nihil a est
+                quas!
+              </p>
+            </div>
           </div>
         </div>
       </div>
